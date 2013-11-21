@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+	   <Button
+	        android:id="@+id/btn_say_hello"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/say_hello" /> 
+	        
+	    <Button
+	        android:id="@+id/btn_next"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="onNextClick" />
+	    
+	    <Button
+	        android:id="@+id/btn_show_hide"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/show_hide"
+	        android:onClick="onShowHideClick" />
+	    
+	    <Button
+	        android:id="@+id/btn_change_color"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/change_color"
+	        android:onClick="onChangeColorClick" />
+    
+    </LinearLayout>
+    
+    <View
+        android:id="@+id/rectangle"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center"
+        android:background="@android:color/black" />
+
+</LinearLayout>

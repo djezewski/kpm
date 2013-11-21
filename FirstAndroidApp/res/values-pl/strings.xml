@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pierwsza apka Androidowa</string>
+	<string name="say_hello">Przywitaj się</string>
+	<string name="hello_world">Witaj świecie!</string>
+	<string name="show_hide">Pokaż/ukryj prostokąt</string>
+	<string name="change_color">Zmień kolor</string>
+	<string name="next">Następna aktywność</string>
+	<string name="previous">Poprzednia aktywność</string>
+
+</resources>
