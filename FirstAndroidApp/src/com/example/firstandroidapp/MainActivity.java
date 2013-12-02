@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
         
         // Many attributes can be set in two ways i.e. in XML files and programmatically.
         mBtnNext.setText(getString(R.string.next));
-      
+              
         mBtnSayHello.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
