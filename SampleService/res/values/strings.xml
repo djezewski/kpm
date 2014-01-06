@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SampleService</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start_service">Start service</string>
+    <string name="stop_service">Stop service</string>
+    <string name="bind_service">Bind service</string>
+    <string name="unbind_service">Unbind service</string>
+    <string name="get_message">Get message (via Binder)</string>
+    <string name="send_intent">Send intent to MyIntentService</string>
+
+</resources>
